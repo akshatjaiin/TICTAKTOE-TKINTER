@@ -15,8 +15,8 @@ def check_winner():
     return None
 
 def click(row, col):
-    global current_player
-    if buttons[row][col]["text"] == "" and not winner:
+    global current_player, winner
+    if buttons[row][col]["text"] == "" and winner is None:
         buttons[row][col]["text"] = current_player
         winner = check_winner()
         if winner:
