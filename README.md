@@ -1,6 +1,4 @@
-Sure! Below is a detailed `README.md` file for your Tic-Tac-Toe game using Tkinter in Python.
-
-```markdown
+```
 # 🎮 Tic-Tac-Toe Game with Tkinter
 
 Welcome to the **Tic-Tac-Toe** game implemented using Python's `tkinter` library! This project is a simple graphical version of the classic two-player Tic-Tac-Toe game.
